@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Web Content Integration and Media Elements</title>
+    <link rel="icon" type="image/x-icon" href="Images/favicon.jpg">
+    <style>
+        .highlight{
+          color:#ff0000;
+        }
+
+        #id{
+          text-align: center;
+
+        }
+        img{
+          width: 200px; 
+          height: auto;
+        }
+
+        #main-heading {
+  background-color: lightblue;
+  color: black;
+  padding: 1px;
+  text-align: center;
+}
+
+/* Style all elements with the class name "city" */
+.city {
+  background-color: tomato;
+  color: white;
+  padding: 0px;
+} 
+figure {
+  border: 1px #cccccc solid;
+  padding: 4px;
+  margin: auto;
+}
+
+figcaption {
+  background-color: black;
+  color: white;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+}
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+}
+
+      </style>
+</head>
+<body>
+     <main>
+        
+            <div>
+                <p class="highlight">HTML Web Content Integration and Media Elements</p>
+                <ul>
+                    <li>HTML.</li>
+                    <li>CSS </li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                </ul>
+            </div>
+        <section>
+            <h2 id="main-heading" >LOREM</h2>
+            <span >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.<strong> Alias quam eius ducimus in iure ipsam,</strong> dolor omnis minima natus <em> dicta quibusdam molestiae quasi,</em> facilis, beatae doloribus error fugit ad.
+            A link to my Page. <a href="https://mypage.com">Web Content Integration </a>
+            </span>
+        </section>
+            <br>
+        
+            <!--Multiple elements with same class -->
+            <section>
+<h2 class="city">London</h2>
+<p>London is the capital of England.</p>
+</section>
+<section>
+<h2 class="city">Paris</h2>
+<p>Paris is the capital of France.</p>
+</section>
+<section>
+<h2 class="city">Tokyo</h2>
+<p>Tokyo is the capital of Japan.</p>
+</section>
+<hr>
+<!--iframe Elements-->
+<h3>The iFrame Element + AliExpress</h3>
+            <iframe src="https://aliexpress.com" width="800" height="600" title="AliExpress"></iframe><br>
+        
+        
+            <!-- Image and Video Paths -->
+            
+            <figure>
+                <img src="Images/Trulli.JPG" alt="A sample image" style="width: 50%">
+                <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+              </figure>
+            <br>
+            <video width="320" height="240" controls autoplay>
+                <source src="video/istockphoto-930480038-640_adpp_is.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+            <!--HTML <audio> Autoplay-->
+<audio controls autoplay>
+    <source src="Audio/sample-15s.mp3" type="audio/mp3">
+  Your browser does not support the audio element.
+  </audio>
+
+       </main>
+       <footer>
+        <p>Author: Annastacia Malova<br>
+        <a href="mailto:ninoh@example.com">ninoh@example.com</a></p>
+      </footer>
+</body>
+</html>
